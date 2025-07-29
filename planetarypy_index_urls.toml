@@ -2,10 +2,9 @@
 
 # This file contains URLs for PDS indices, organized by mission and instrument
 
-
 [missions]
 
-# Mro Mission
+# MRO Mission
 [missions.mro]
 
 # CTX Instrument
