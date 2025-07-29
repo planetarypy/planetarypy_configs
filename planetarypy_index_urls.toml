@@ -11,8 +11,6 @@
 [missions.mro.ctx]
 edr = "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/mrox_5010//index/cumindex.lbl"
 
-# Latest URL discovered on 2025-03-07
-
 # HIRISE Instrument
 [missions.mro.hirise]
 dtm = "https://hirise-pds.lpl.arizona.edu/PDS/INDEX/DTMCUMINDEX.LBL"
