@@ -9,7 +9,7 @@
 
 # CTX Instrument
 [missions.mro.ctx]
-edr = "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/mrox_5010//index/cumindex.lbl"
+edr = "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/mrox_5010/index/cumindex.lbl"
 
 # HIRISE Instrument
 [missions.mro.hirise]
@@ -39,7 +39,7 @@ pancam_rdr = "https://pds-geosciences.wustl.edu/mer/mer1-m-pancam-3-radcal-sci-v
 
 # LROC Instrument
 [missions.lro.lroc]
-edr = "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0061C//INDEX/CUMINDEX.LBL"
+edr = "https://pds.lroc.asu.edu/data/LRO-L-LROC-2-EDR-V1.0/LROLRC_0061C/INDEX/CUMINDEX.LBL"
 
 
 # DIVINER Instrument
