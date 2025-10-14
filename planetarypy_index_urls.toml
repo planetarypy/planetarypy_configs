@@ -80,7 +80,9 @@ versions = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999
 [go.ssi]
 body_summary = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_body_summary.lbl"
 index = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_index.lbl"
-inventory = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_inventory.lbl"
+# the inventory file is an irregular (meaning variable number of columns) CSV file (instead of standard TAB), so
+# I'm taking it out for now until a reader has been implemented
+# inventory = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_inventory.lbl"
 jupiter_summary = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_jupiter_summary.lbl"
 moon_summary = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_moon_summary.lbl"
 ring_summary = "https://pds-rings.seti.org/holdings/metadata/GO_0xxx/GO_0999/GO_0999_ring_summary.lbl"
