@@ -109,6 +109,27 @@ supplemental_index = "https://pds-rings.seti.org/holdings/metadata/VGISS_5xxx/VG
 index = "https://pds-rings.seti.org/holdings/metadata/VGISS_6xxx/VGISS_6999/VGISS_6999_index.lbl"
 supplemental_index = "https://pds-rings.seti.org/holdings/metadata/VGISS_6xxx/VGISS_6999/VGISS_6999_supplemental_index.lbl"
 
+# MGS Mission
+[mgs]
+
+# MOC Instrument (Mars Orbiter Camera)
+[mgs.moc]
+edr = "https://planetarydata.jpl.nasa.gov/img/data/mgs/moc/mgsc_1578/index/cumindex.lbl"
+rdr = "https://planetarydata.jpl.nasa.gov/img/data/mgs/moc/rdr/mgscim_1578/index/cumindex.lbl"
+
+# Viking Orbiter Mission
+# vo_1064 cumindex covers both Viking 1 (vo_1001-vo_1032) and Viking 2 (vo_1051-vo_1064)
+[viking.vis]
+edr = "https://planetarydata.jpl.nasa.gov/img/data/viking/viking_orbiter/vo_1064/index/cumindex.lbl"
+
+# MESSENGER Mission
+[messenger]
+
+# MDIS Instrument (Mercury Dual Imaging System)
+[messenger.mdis]
+edr = "https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_1001/INDEX/CUMINDEX.LBL"
+cdr = "https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_2001/INDEX/CUMINDEX.LBL"
+
 # Juno Mission (SETI Rings Node)
 [juno.junocam]
 index = "https://pds-rings.seti.org/holdings/metadata/JNOJNC_0xxx/JNOJNC_0999/JNOJNC_0999_index.lbl"
