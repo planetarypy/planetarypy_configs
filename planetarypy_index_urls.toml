@@ -165,6 +165,32 @@ cdr = "https://planetarydata.jpl.nasa.gov/img/data/messenger/MSGRMDS_2001/INDEX/
 edr = "https://pds-geosciences.wustl.edu/phx/phx-m-meca-2-niedr-v1/phxmec_0xxx/index/index.lbl"
 rdr = "https://pds-geosciences.wustl.edu/phx/phx-m-meca-4-nirdr-v1/phxmec_1xxx/index/index.lbl"
 
+# MSL Mission (single-volume archives — index.tab IS the cumulative index)
+[msl]
+
+# APXS Instrument
+[msl.apxs]
+edr = "https://pds-geosciences.wustl.edu/msl/msl-m-apxs-2-edr-v1/mslapx_0xxx/index/index.lbl"
+rdr = "https://pds-geosciences.wustl.edu/msl/msl-m-apxs-4_5-rdr-v1/mslapx_1xxx/index/index.lbl"
+
+# ChemCam Instrument (EDR index covers LIBS+RMI+SOH; RDR has separate libs/rmi indexes)
+[msl.ccam]
+edr = "https://pds-geosciences.wustl.edu/msl/msl-m-chemcam-libs-2-edr-v1/mslccm_0xxx/index/index.lbl"
+libs_rdr = "https://pds-geosciences.wustl.edu/msl/msl-m-chemcam-libs-4_5-rdr-v1/mslccm_1xxx/index/libsindex.lbl"
+rmi_rdr = "https://pds-geosciences.wustl.edu/msl/msl-m-chemcam-libs-4_5-rdr-v1/mslccm_1xxx/index/rmiindex.lbl"
+
+# CheMin Instrument
+[msl.cmn]
+edr = "https://pds-geosciences.wustl.edu/msl/msl-m-chemin-2-edr-v1/mslcmn_0xxx/index/index.lbl"
+rdr = "https://pds-geosciences.wustl.edu/msl/msl-m-chemin-4-rdr-v1/mslcmn_1xxx/index/index.lbl"
+
+# SAM Instrument (per-level indexes)
+[msl.sam]
+l0 = "https://pds-geosciences.wustl.edu/msl/msl-m-sam-2-rdr-l0-v1/mslsam_1xxx/index/l0_index.lbl"
+l1a = "https://pds-geosciences.wustl.edu/msl/msl-m-sam-2-rdr-l0-v1/mslsam_1xxx/index/l1a_index.lbl"
+l1b = "https://pds-geosciences.wustl.edu/msl/msl-m-sam-2-rdr-l0-v1/mslsam_1xxx/index/l1b_index.lbl"
+l2 = "https://pds-geosciences.wustl.edu/msl/msl-m-sam-2-rdr-l0-v1/mslsam_1xxx/index/l2_index.lbl"
+
 # Juno Mission (SETI Rings Node)
 [juno.junocam]
 index = "https://pds-rings.seti.org/holdings/metadata/JNOJNC_0xxx/JNOJNC_0999/JNOJNC_0999_index.lbl"
