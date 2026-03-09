@@ -20,17 +20,15 @@ rdr = "https://hirise-pds.lpl.arizona.edu/PDS/INDEX/RDRCUMINDEX.LBL"
 mtrdr = "https://pds-geosciences.wustl.edu/mro/mro-m-crism-5-rdr-mptargeted-v1/mrocr_4001/index/mtrdr0705_index.lbl"
 
 
-[mer.spirit]
+[mer_spirit.pancam]
 # also called mer2
-
 # Pancam Science Radiometrically Calibrated Image RDRs, version 2 (PDS4)
-pancam_rdr = "https://pds-geosciences.wustl.edu/mer/mer2-m-pancam-3-radcal-sci-v2/mer2pc_1002/index/index.lbl"
+rdr = "https://pds-geosciences.wustl.edu/mer/mer2-m-pancam-3-radcal-sci-v2/mer2pc_1002/index/index.lbl"
 
-[mer.opportunity]
+[mer_opportunity.pancam]
 # also called mer1
-
 # Pancam Science Radiometrically Calibrated Image RDRs, version 2 (PDS4)
-pancam_rdr = "https://pds-geosciences.wustl.edu/mer/mer1-m-pancam-3-radcal-sci-v2/mer1pc_1002/index/index.lbl"
+rdr = "https://pds-geosciences.wustl.edu/mer/mer1-m-pancam-3-radcal-sci-v2/mer1pc_1002/index/index.lbl"
 
 # Lro Mission
 [lro]
