@@ -59,17 +59,16 @@ rdr = "http://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/inde
 # Cassini Mission
 [cassini]
 
-# ISS Instrument (Saturn orbit)
+# ISS Instrument
+# `index` is the Saturn-orbit dataset (COISS_2xxx, 2004-2017).
+# `cruise_index` covers the Earth/Venus/Jupiter cruise (COISS_1xxx, 1997-2003).
 [cassini.iss]
 index = "https://pds-rings.seti.org/holdings/metadata/COISS_2xxx/COISS_2999/COISS_2999_index.lbl"
 inventory = "https://pds-rings.seti.org/holdings/metadata/COISS_2xxx/COISS_2999/COISS_2999_inventory.lbl"
 moon_summary = "https://pds-rings.seti.org/holdings/metadata/COISS_2xxx/COISS_2999/COISS_2999_moon_summary.lbl"
 ring_summary = "https://pds-rings.seti.org/holdings/metadata/COISS_2xxx/COISS_2999/COISS_2999_ring_summary.lbl"
 saturn_summary = "https://pds-rings.seti.org/holdings/metadata/COISS_2xxx/COISS_2999/COISS_2999_saturn_summary.lbl"
-
-# ISS Instrument (cruise: Earth/Venus/Jupiter)
-[cassini.iss_cruise]
-index = "https://pds-rings.seti.org/holdings/metadata/COISS_1xxx/COISS_1999/COISS_1999_index.lbl"
+cruise_index = "https://pds-rings.seti.org/holdings/metadata/COISS_1xxx/COISS_1999/COISS_1999_index.lbl"
 
 # CIRS Instrument (Saturn orbit 2010-2017, 3 geometry index types)
 [cassini.cirs]
@@ -82,17 +81,9 @@ cube_ring_index = "https://pds-rings.seti.org/holdings/metadata/COCIRS_1xxx/COCI
 index = "https://pds-rings.seti.org/holdings/metadata/CORSS_8xxx/CORSS_8001/CORSS_8001_index.lbl"
 profile_index = "https://pds-rings.seti.org/holdings/metadata/CORSS_8xxx/CORSS_8001/CORSS_8001_profile_index.lbl"
 
-# UVIS Occultations
-[cassini.uvis_occ]
-index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_8xxx/COUVIS_8001/COUVIS_8001_index.lbl"
-profile_index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_8xxx/COUVIS_8001/COUVIS_8001_profile_index.lbl"
-
-# VIMS Occultations
-[cassini.vims_occ]
-index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_8xxx/COVIMS_8001/COVIMS_8001_index.lbl"
-profile_index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_8xxx/COVIMS_8001/COVIMS_8001_profile_index.lbl"
-
 # UVIS Instrument
+# Regular observations are COUVIS_0xxx; `occ_*` keys cover the stellar
+# occultation campaign (COUVIS_8xxx).
 [cassini.uvis]
 index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999/COUVIS_0999_index.lbl"
 moon_summary = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999/COUVIS_0999_moon_summary.lbl"
@@ -100,14 +91,20 @@ ring_summary = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_
 saturn_summary = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999/COUVIS_0999_saturn_summary.lbl"
 supplemental_index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999/COUVIS_0999_supplemental_index.lbl"
 versions = "https://pds-rings.seti.org/holdings/metadata/COUVIS_0xxx/COUVIS_0999/COUVIS_0999_versions.lbl"
+occ_index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_8xxx/COUVIS_8001/COUVIS_8001_index.lbl"
+occ_profile_index = "https://pds-rings.seti.org/holdings/metadata/COUVIS_8xxx/COUVIS_8001/COUVIS_8001_profile_index.lbl"
 
-# Cassini VIMS Instrument
+# VIMS Instrument
+# Regular observations are COVIMS_0xxx; `occ_*` keys cover the stellar
+# occultation campaign (COVIMS_8xxx).
 [cassini.vims]
 index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_0xxx/COVIMS_0999/COVIMS_0999_index.lbl"
 moon_summary = "https://pds-rings.seti.org/holdings/metadata/COVIMS_0xxx/COVIMS_0999/COVIMS_0999_moon_summary.lbl"
 ring_summary = "https://pds-rings.seti.org/holdings/metadata/COVIMS_0xxx/COVIMS_0999/COVIMS_0999_ring_summary.lbl"
 saturn_summary = "https://pds-rings.seti.org/holdings/metadata/COVIMS_0xxx/COVIMS_0999/COVIMS_0999_saturn_summary.lbl"
 supplemental_index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_0xxx/COVIMS_0999/COVIMS_0999_supplemental_index.lbl"
+occ_index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_8xxx/COVIMS_8001/COVIMS_8001_index.lbl"
+occ_profile_index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_8xxx/COVIMS_8001/COVIMS_8001_profile_index.lbl"
 
 # Galileo Orbiter Mission
 [go]
