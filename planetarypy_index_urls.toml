@@ -109,8 +109,7 @@ occ_profile_index = "https://pds-rings.seti.org/holdings/metadata/COVIMS_8xxx/CO
 # CDA Instrument
 # Handbook: https://sbn.psi.edu/pds/resource/cdaDataHB-5-4-17.pdf
 [cassini.cda]
-index = "https://sbnarchive.psi.edu/pds3/cassini/cda/COCDA_0101/INDEX/CUMINDEX.LBL"
-
+index = "https://sbnarchive.psi.edu/pds3/cassini/cda/COCDA_0101/INDEX/INDEX.LBL"
 # Galileo Orbiter Mission
 [go]
 
